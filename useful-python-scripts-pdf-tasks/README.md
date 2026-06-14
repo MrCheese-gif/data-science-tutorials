@@ -172,5 +172,7 @@ python pdf_inventory.py --input ./archive --recursive
 - Red = encrypted file that could not be opened
 - Blue alternating = standard files
 
+# Note from forker
 
+**I forked this project and fixed a problem in pdf_redactor.py where a few letters above and below censored words get deleted. In case the problem persists, edit the margin using '--margin'. The default margin is 1.0**
 
